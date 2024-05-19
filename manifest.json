@@ -1,0 +1,13 @@
+{
+
+    "name": "Basic Weather App",
+    "version": "1.0.0",
+    "description": "an app which displays weather",
+    "manifest_version": 3,
+    "author":"Tanya Agrawal",
+    "action": {
+        "default_popup": "./index.html",
+        "default_icon": "./icon128.png"
+    },
+    "permissions":["activeTab","geolocation"]
+}
